@@ -1,0 +1,29 @@
+# === 대용량 및 불필요한 디렉토리 제외 ===
+pretrain_models/
+result/
+tracking_output/
+VOTS23_workspace/
+ablation_results/
+datasets/
+assets/
+build/
+vcpkg/
+.idea/
+.vscode/
+
+# === 모델 및 로그 파일 ===
+*.pt
+*.pth
+*.onnx
+*.log
+*.zip
+*.tar
+*.pkl
+
+# === Python 캐시 및 egg-info ===
+__pycache__/
+*.egg-info/
+
+# === 기타 시스템 파일 ===
+.DS_Store
+Thumbs.db
